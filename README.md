@@ -4,7 +4,7 @@
 
   # DATA STRUCTURES & ALGORITHMS (DSA) All Experiments
 
- ## [Click here to open full code](https://www.MirzaYounisHussain.github.io./new.c)
+ ## [Click Here To Open Full Code](https://www.MirzaYounisHussain.github.io./new.c)
  
 
 
