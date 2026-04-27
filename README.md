@@ -2,9 +2,9 @@
 
 
 
-# 🚀 DATA STRUCTURES & ALGORITHMS (DSA)
-## 📚 All Experiments in C Programming
+  # DATA STRUCTURES & ALGORITHMS (DSA) All Experiments
 
-## (https://www.MirzaYounisHussain.github.io/new.c)
+ ## [Click here to open full code](https://www.MirzaYounisHussain.github.io./new.c)
+ 
 
 
