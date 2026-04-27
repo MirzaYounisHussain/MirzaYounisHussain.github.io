@@ -4,7 +4,7 @@
 
   # DATA STRUCTURES & ALGORITHMS (DSA) All Experiments
 
- ## [Click Here To Open Full Code](nodic.me/new.c)
+ ## [Click Here To Open Full Code](./new.c)
  
 
 
