@@ -20,3 +20,47 @@
 4. Paste in compiler  
 
 ---
+
+(function () {
+
+    // Remove inline handlers
+    document.querySelectorAll('*').forEach(el => {
+        [
+            'oncopy','onpaste','oncut','oncontextmenu',
+            'onselectstart','ondragstart','onmousedown',
+            'onmouseup','onkeydown','onkeypress'
+        ].forEach(attr => el[attr] = null);
+
+        el.removeAttribute('disabled');
+        el.removeAttribute('readonly');
+        el.style.userSelect = 'text';
+        el.style.webkitUserSelect = 'text';
+    });
+
+    // Kill event blockers
+    [
+        'copy','paste','cut','contextmenu',
+        'selectstart','dragstart',
+        'keydown','keypress','mousedown'
+    ].forEach(evt => {
+        window.addEventListener(evt, e => {
+            e.stopImmediatePropagation();
+        }, true);
+    });
+
+    // Enable content editing
+    document.body.contentEditable = true;
+
+    // Force selectable text
+    const style = document.createElement('style');
+    style.innerHTML = `
+        * {
+            user-select: text !important;
+            -webkit-user-select: text !important;
+        }
+    `;
+    document.head.appendChild(style);
+
+    console.log("Maximum restrictions removed");
+
+})();
