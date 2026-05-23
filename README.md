@@ -11,7 +11,7 @@
 
 👉 [Open Raw Code (Easy Copy)](https://raw.githubusercontent.com/MirzaYounisHussain/MirzaYounisHussain.github.io/main/new.c)
 
----
+---    Sf,2-F5c%!jHahS
 
 ## 📌 How to Use
 1. Open raw code  
